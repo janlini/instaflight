@@ -21,7 +21,7 @@
         </form>   
         <?php
         echo "<br>";
-        $obst = array ("Banane", "Apfel", "Birne");
+        $obst = array ("Banane", "Apfel", "Birne","Aprikose","Zwetschge");
         echo $obst [0];
         $obst [] = "Orange";
         echo "<br>";
