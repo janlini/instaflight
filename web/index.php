@@ -40,8 +40,8 @@
                     "vogel"];
         $max =count($bilder) -1;
         $random = rand(0,$max);
-        echo "images/test/$bilder[$random].jpg";
-        echo "<img src='images/test/$bilder[$random].jpg' >";
+        echo "images/$bilder[$random].jpg";
+        echo "<img src='images/$bilder[$random].jpg' >";
         ?>
     </body>
 </html>
